@@ -1,0 +1,38 @@
+button {
+width: 120px;
+  height: 30px;
+  background-color: #20262E;
+  color: #E9E8E8;
+  border: 2px solid #CD5888;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #CD5888;
+  color: #20262E;
+  border: 2px solid #20262E;
+  font-size: 15px;
+}
+
+.userTextField {
+    font-size: 15px;
+    color: #20262E;
+    border: 2px solid #CD5888;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .userTextField {
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
+    }
+}
+
